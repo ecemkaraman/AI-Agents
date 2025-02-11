@@ -195,7 +195,7 @@ def calculator(a: int, b: int) -> int:
     print(calculator(3, 4))  # Calls tool dynamically
     ```
     
-    - 2 Usage Options for `Tool` class: decorator-based (BP) or manual registration
+    - **2 Usage Options for `Tool` class:** decorator-based (BP) or manual registration
     
     ```python
     # **Decorator-Based Tool Definition**
