@@ -23,6 +23,7 @@ I will be adding new notes every week as I progress through the course, so ⭐ s
 If you're interested in **building AI agents**, I highly recommend **enrolling in the official course**:
 
 👉 [**Hugging Face AI Agents Course**](https://huggingface.co/learn/agents-course/unit0/introduction)
+👉 [**Course Github Repo**](https://github.com/huggingface/agents-course)
 
 My notes can be used alongside the course to **help reinforce learning**, but **the best way to learn is to follow the course directly!** 🎯
 
