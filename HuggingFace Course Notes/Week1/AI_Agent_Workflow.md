@@ -18,7 +18,8 @@
 - The cycle repeats in a **while-loop** until the agent fulfills the user request.
 - System prompts define agent behavior, tool access, and adherence to the Thought-Action-Observation cycle.
 
-![image.png](attachment:b4d279b6-f7a0-4f84-9fb1-bd35f2d34ee4:image.png)
+<img width="562" alt="image" src="https://github.com/user-attachments/assets/5586c48a-0ddc-4740-ab7f-6b27a460574c" />
+
 
 ---
 
