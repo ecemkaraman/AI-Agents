@@ -15,6 +15,7 @@ This repository is designed as a **structured learning guide** for those followi
 - **Additional insights & related concepts** 💡
 - **Hands-on examples & practical applications** 🛠️
 
+I will be adding new notes every week as I progress through the course, so ⭐ star this repo to stay updated! 🚀
 ---
 
 ## 🏁 **Start Learning!**
