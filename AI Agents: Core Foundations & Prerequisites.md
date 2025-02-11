@@ -149,6 +149,6 @@ To **put all concepts together**, here’s how an AI Agent operates step by step
 
 ## **📌 Recap**
 
-1. **.**
+1. **AI Agents = Perception + Decision Making + Learning + Action + Memory**
 2. **Prerequisites = Mathematics, Intelligent Models, Decision Making, ML & RL, Knowledge Storage.**
 3. **Implementation = Use Python + ML frameworks + Multi-Agent Systems.**
