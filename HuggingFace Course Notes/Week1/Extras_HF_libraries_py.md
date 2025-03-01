@@ -1,84 +1,31 @@
 ### **🔹 Main Python Libraries Used by Hugging Face**
-### **🎯 Summary**
 
-- **`transformers`** → Model loading, inference, training.
-- **`datasets`** → Data loading, preprocessing, and transformations.
-- **`tokenizers`** → Tokenizing text efficiently.
-- **`accelerate`** → Optimized multi-GPU training.
-- **`peft`** → Fine-tuning large models efficiently.
-- **`evaluate`** → Computing NLP/ML metrics.
-- **`diffusers`** → Generating images with diffusion models.
-- **`huggingface_hub`** → Model hosting, sharing, and downloading.
-
-1️⃣ **🤗 Transformers** → Core library for using pretrained models (LLMs, BERT, GPT, etc.).
-
-```bash
-pip install transformers
+  ```bash
+pip install <library>
 
 ```
 
-2️⃣ **📚 Datasets** → Provides large-scale datasets for training and evaluation.
+1️⃣ **🤗 `transformers`** → Model loading, inference, training → Core library for using pretrained models (LLMs, BERT, GPT, etc.).
 
-```bash
-pip install datasets
+2️⃣ **📚 `datasets`** → Data loading, preprocessing, and transformations→ Provides large-scale datasets for training and evaluation.
 
-```
+3️⃣ **🔤 `tokenizers`** → Fast, efficient text tokenization optimized for NLP tasks.
 
-3️⃣ **🔤 Tokenizers** → Fast, efficient tokenization optimized for NLP tasks.
+4️⃣ **🖥️  `accelerate`** → Optimized model training on multi-GPU/TPU.
 
-```bash
-pip install tokenizers
+5️⃣ **🛠️ `peft` (Parameter-Efficient Fine-Tuning)** → Efficiently fine-tune large LLMs with LoRA & adapters.
 
-```
+6️⃣ **📊 `evaluate`** → Computing NLP/ML metrics.
 
-4️⃣ **🖥️ Accelerate** → Optimizes model training on multiple GPUs or TPUs.
+7️⃣ **🧪 `diffusers`** → Generating images with diffusion models (e.g., Stable Diffusion).
 
-```bash
-pip install accelerate
+8️⃣ **📡 `huggingface_hub`** → Manage (host, share, download) models, datasets, and repositories on Hugging Face Hub.
 
-```
+9️⃣ **🗣️ `text-generation-inference` (TGI)** → Optimized inference for LLMs in production.
 
-5️⃣ **🛠️ PEFT (Parameter-Efficient Fine-Tuning)** → Efficiently fine-tune LLMs with LoRA & adapters.
+🔟 **🌉 `sentence-transformers`** → Specialized for embedding-based NLP tasks (e.g., similarity search).
 
-```bash
-pip install peft
 
-```
-
-6️⃣ **📊 Evaluate** → Library for NLP and ML metric evaluation.
-
-```bash
-pip install evaluate
-
-```
-
-7️⃣ **🧪 Diffusers** → Used for generative AI and diffusion models (e.g., Stable Diffusion).
-
-```bash
-pip install diffusers
-
-```
-
-8️⃣ **📡 Hub** → Manage models, datasets, and repositories on Hugging Face Hub.
-
-```bash
-pip install huggingface_hub
-
-```
-
-9️⃣ **🗣️ Text Generation Inference (TGI)** → Optimized inference for LLMs in production.
-
-```bash
-pip install text-generation-inference
-
-```
-
-🔟 **🌉 Sentence Transformers** → Specialized for embedding-based NLP tasks (e.g., similarity search).
-
-```bash
-pip install sentence-transformers
-
-```
 ### **🚀 How Hugging Face Libraries Work Together**
 
 ### **🔹 Pipeline Flow: From Model Selection to Inference**
