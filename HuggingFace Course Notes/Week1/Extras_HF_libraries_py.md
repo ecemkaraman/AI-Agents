@@ -237,3 +237,55 @@ notebook_login()  # Log in to Hugging Face
 7️⃣ **Evaluate model performance** (`evaluate`) 📊
 
 8️⃣ **Deploy & share** (`huggingface_hub`) 🚀
+
+### **🚀 Hugging Face Libraries: Most Frequently Used Classes & Methods**
+
+| **Library** | **Key Class/Method** | **Purpose / Usage** |
+| --- | --- | --- |
+| **🤗 `transformers`** | `AutoModel.from_pretrained()` | Loads a pretrained model (e.g., GPT, BERT). |
+|  | `AutoTokenizer.from_pretrained()` | Loads a tokenizer for text preprocessing. |
+|  | `pipeline()` | Simplifies inference (text-gen, summarization, etc.). |
+|  | `Trainer()` | Handles training and evaluation workflows. |
+|  | `TrainingArguments()` | Configures training hyperparameters. |
+|  | `generate()` | Generates text for language models. |
+| **📚 `datasets`** | `load_dataset()` | Loads datasets from Hugging Face Hub. |
+|  | `Dataset.map()` | Applies transformation functions to data. |
+|  | `Dataset.filter()` | Filters data based on conditions. |
+|  | `Dataset.train_test_split()` | Splits dataset for training/testing. |
+|  | `Dataset.to_pandas()` | Converts dataset to Pandas DataFrame. |
+| **🔤 `tokenizers`** | `AutoTokenizer.from_pretrained()` | Loads a tokenizer for a specific model. |
+|  | `encode()` | Converts text into token IDs. |
+|  | `decode()` | Converts token IDs back into text. |
+|  | `batch_encode_plus()` | Tokenizes multiple sentences at once. |
+|  | `save_pretrained()` | Saves tokenizer locally. |
+| **🖥️ `accelerate`** | `Accelerator()` | Enables multi-GPU training optimization. |
+|  | `accelerator.prepare()` | Wraps models, optimizers, and data for acceleration. |
+|  | `accelerator.gather()` | Gathers tensors from multiple devices. |
+|  | `accelerator.save_model()` | Saves a trained model efficiently. |
+|  | `accelerator.free_memory()` | Clears unused GPU memory. |
+| **🛠️ `peft` (Fine-Tuning)** | `LoraConfig()` | Configures LoRA fine-tuning (efficient adaptation). |
+|  | `get_peft_model()` | Wraps model with LoRA for parameter-efficient tuning. |
+|  | `PeftModel.from_pretrained()` | Loads a fine-tuned PEFT model. |
+|  | `TaskType.CAUSAL_LM` | Specifies task type for tuning (e.g., causal language model). |
+|  | `prepare_model_for_kbit_training()` | Prepares model for low-bit precision fine-tuning. |
+| **📊 `evaluate`** | `load("metric_name")` | Loads evaluation metric (e.g., accuracy, F1-score). |
+|  | `compute()` | Computes metric on predictions. |
+| **🧪 `diffusers`** | `StableDiffusionPipeline.from_pretrained()` | Loads a Stable Diffusion model. |
+|  | `scheduler` | Controls how diffusion steps progress. |
+|  | `generate()` | Generates an image using diffusion. |
+| **📡 `huggingface_hub`** | `notebook_login()` | Logs into Hugging Face from a Jupyter notebook. |
+|  | `HfApi().list_models()` | Lists available models on the Hub. |
+|  | `push_to_hub()` | Uploads model/dataset to Hugging Face Hub. |
+
+---
+
+### **🎯 Summary**
+
+- **`transformers`** → Model loading, inference, training.
+- **`datasets`** → Data loading, preprocessing, and transformations.
+- **`tokenizers`** → Tokenizing text efficiently.
+- **`accelerate`** → Optimized multi-GPU training.
+- **`peft`** → Fine-tuning large models efficiently.
+- **`evaluate`** → Computing NLP/ML metrics.
+- **`diffusers`** → Generating images with diffusion models.
+- **`huggingface_hub`** → Model hosting, sharing, and downloading.
