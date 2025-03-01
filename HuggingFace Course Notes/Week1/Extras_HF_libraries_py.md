@@ -24,6 +24,7 @@ pip install <library>
 9️⃣ **🗣️ `text-generation-inference` (TGI)** → Optimized inference for LLMs in production.
 
 🔟 **🌉 `sentence-transformers`** → Specialized for embedding-based NLP tasks (e.g., similarity search).
+
 ---
 
 ### **🚀 How Hugging Face Libraries Work Together**
