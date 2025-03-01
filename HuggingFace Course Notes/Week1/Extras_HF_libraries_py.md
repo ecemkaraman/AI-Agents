@@ -1,4 +1,14 @@
 ### **🔹 Main Python Libraries Used by Hugging Face**
+### **🎯 Summary**
+
+- **`transformers`** → Model loading, inference, training.
+- **`datasets`** → Data loading, preprocessing, and transformations.
+- **`tokenizers`** → Tokenizing text efficiently.
+- **`accelerate`** → Optimized multi-GPU training.
+- **`peft`** → Fine-tuning large models efficiently.
+- **`evaluate`** → Computing NLP/ML metrics.
+- **`diffusers`** → Generating images with diffusion models.
+- **`huggingface_hub`** → Model hosting, sharing, and downloading.
 
 1️⃣ **🤗 Transformers** → Core library for using pretrained models (LLMs, BERT, GPT, etc.).
 
@@ -279,13 +289,4 @@ notebook_login()  # Log in to Hugging Face
 
 ---
 
-### **🎯 Summary**
 
-- **`transformers`** → Model loading, inference, training.
-- **`datasets`** → Data loading, preprocessing, and transformations.
-- **`tokenizers`** → Tokenizing text efficiently.
-- **`accelerate`** → Optimized multi-GPU training.
-- **`peft`** → Fine-tuning large models efficiently.
-- **`evaluate`** → Computing NLP/ML metrics.
-- **`diffusers`** → Generating images with diffusion models.
-- **`huggingface_hub`** → Model hosting, sharing, and downloading.
