@@ -104,14 +104,3 @@ Supports multiple model backends for **LLM execution**:
 ❌ **Highly structured workflows** (LangGraph is better).
 
 ❌ **Complex multi-step decision-making** (LlamaIndex might fit better).
-
----
-
-### **Next Steps**
-
-- **Try smolagents in your projects.**
-- **Experiment with Code & ToolCalling Agents.**
-- **Extend functionality with custom tools.**
-- **Test different LLM models & integrations.**
-
-🚀 *Let’s build smarter AI Agents!* 🚀
